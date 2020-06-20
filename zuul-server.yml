@@ -9,7 +9,7 @@ zuul:
     routes:
       clientes-service: # Service to create as sample
         path: /clientes/** #path that will be intercepted
-        url: clientes-service #which url the request will e mapped to
+        url: http://localhost:8091 #which url the request will e mapped to
       productos-service: # Service to create as sample
         path: /productos/** #path that will be intercepted
-        url: productos-service #which url the request will e mapped to
+        url: http://localhost:8091 #which url the request will e mapped to
