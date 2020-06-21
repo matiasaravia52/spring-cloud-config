@@ -12,4 +12,4 @@ zuul:
         url: http://localhost:8091 #which url the request will e mapped to
       productos-service: # Service to create as sample
         path: /productos/** #path that will be intercepted
-        url: http://localhost:8091 #which url the request will e mapped to
+        url: http://localhost:8092 #which url the request will e mapped to
